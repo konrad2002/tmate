@@ -1,3 +1,7 @@
 [submodule "tmate-client-web"]
 	path = tmate-client-web
 	url = https://github.com/konrad2002/tmate-client-web.git
+
+[submodule "tmate-server"]
+	path = tmate-server
+	url = https://github.com/konrad2002/tmate-server.git
