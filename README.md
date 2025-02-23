@@ -5,7 +5,7 @@
  - [ ] Login
  - [ ] User Management
  - [x] Load Table
- - [ ] Different Queries
+ - [x] Different Queries
  - [ ] Query Builder
  - [ ] Sort Table
  - [ ] Modify Table Structure
@@ -44,3 +44,11 @@
 - member selection (table service)
 - member detail dialog
 - implement all field types in both dialog and table
+
+### Feb 23
+
+- load queries from db and execute them
+- show queries in toolbar
+- keep table state in service
+- run queries from client
+- update table fields after query
