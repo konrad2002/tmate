@@ -52,3 +52,5 @@
 - keep table state in service
 - run queries from client
 - update table fields after query
+- view member details
+- save members after adding/editing
