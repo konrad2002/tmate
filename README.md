@@ -22,7 +22,8 @@
  - [ ] Attest Management
  - [ ] Personal Settings
  - [ ] In-Table Editing
- - [ ] Default Query
+ - [x] Default Query
+ - [ ] Consistency checks
 
 ## Dev-Log
 
@@ -62,3 +63,25 @@
 - special fields config
 - config controller and service
 - search feature
+- refresh button
+- default query
+
+## Roadmap
+
+### Feb 24
+
+- family feature
+
+### Feb 25
+
+- query editor
+- query list
+
+### Feb 26
+
+- table sorting
+- in table editing
+
+### Feb 27
+
+- attest system
