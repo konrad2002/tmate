@@ -85,3 +85,18 @@
 ### Feb 27
 
 - attest system
+
+### Feb 28
+
+- history log
+
+### Mar 1
+
+- excel/csv export
+- modify table structure
+
+### Mar 2
+
+- user management
+- login
+- permissions
