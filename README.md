@@ -9,8 +9,8 @@
  - [ ] Query Builder
  - [ ] Sort Table
  - [ ] Modify Table Structure
- - [ ] Add/Modify/Delete Member
- - [ ] Search
+ - [x] Add/Modify/Delete Member
+ - [x] Search
  - [ ] Conditions
  - [ ] Quick Buttons for Conditions and Queries
  - [ ] Permission System
@@ -22,6 +22,7 @@
  - [ ] Attest Management
  - [ ] Personal Settings
  - [ ] In-Table Editing
+ - [ ] Default Query
 
 ## Dev-Log
 
@@ -54,3 +55,10 @@
 - update table fields after query
 - view member details
 - save members after adding/editing
+- dialog spinner animations
+
+### Feb 24
+
+- special fields config
+- config controller and service
+- search feature
