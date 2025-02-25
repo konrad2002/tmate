@@ -7,6 +7,7 @@
  - [x] Load Table
  - [x] Different Queries
  - [ ] Query Builder
+ - [ ] Query List
  - [ ] Sort Table
  - [ ] Modify Table Structure
  - [x] Add/Modify/Delete Member
@@ -66,11 +67,20 @@
 - refresh button
 - default query
 
+### Feb 25
+
+- save family member when saving member
+- family member selection dialog
+- show family in table and member details
+- make family clearable
+- query editor component and dialog
+- projection selection
+- recursive condition builder
+- sorting selection
+
+### Feb 26
+
 ## Roadmap
-
-### Feb 24
-
-- family feature
 
 ### Feb 25
 
