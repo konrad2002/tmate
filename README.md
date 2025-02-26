@@ -80,15 +80,17 @@
 
 ### Feb 26
 
+- save queries with service (add and update, no filter yet)
+- convert ts ui interfaces to bson documents and vice versa
+- make query nameable
+- query delete function
+
 ## Roadmap
-
-### Feb 25
-
-- query editor
-- query list
 
 ### Feb 26
 
+- query editor
+- query list
 - table sorting
 - in table editing
 
