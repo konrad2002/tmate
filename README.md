@@ -6,7 +6,7 @@
  - [ ] User Management
  - [x] Load Table
  - [x] Different Queries
- - [ ] Query Builder
+ - [x] Query Builder
  - [ ] Query List
  - [ ] Sort Table
  - [ ] Modify Table Structure
@@ -84,12 +84,12 @@
 - convert ts ui interfaces to bson documents and vice versa
 - make query nameable
 - query delete function
+- query editor save and modify conditions
 
 ## Roadmap
 
 ### Feb 26
 
-- query editor
 - query list
 - table sorting
 - in table editing
