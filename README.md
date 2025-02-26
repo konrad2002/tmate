@@ -85,14 +85,15 @@
 - make query nameable
 - query delete function
 - query editor save and modify conditions
+- table sorting with header buttons
+- allow editing when double click
+- edit toolbar section
 
 ## Roadmap
 
 ### Feb 26
 
-- table sorting
-- in table editing
-- query list
+- save in table editing
 
 ### Feb 27
 
@@ -113,3 +114,9 @@
 - user management
 - login
 - permissions
+
+## Future Ideas
+
+- query list
+- aggregation functions in queries
+- suggest common entries when editing member info (like the city name after typing some letters)
