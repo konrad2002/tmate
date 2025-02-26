@@ -90,17 +90,18 @@
 
 ### Feb 26
 
-- query list
 - table sorting
 - in table editing
+- query list
 
 ### Feb 27
 
+- date type
 - attest system
 
 ### Feb 28
 
-- history log
+- history log (without user?!)
 
 ### Mar 1
 
