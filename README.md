@@ -8,23 +8,23 @@
  - [x] Different Queries
  - [x] Query Builder
  - [ ] Query List
- - [ ] Sort Table
+ - [x] Sort Table
  - [ ] Modify Table Structure
  - [x] Add/Modify/Delete Member
  - [x] Search
- - [ ] Conditions
- - [ ] Quick Buttons for Conditions and Queries
+ - [x] Quick Buttons for Conditions and Queries
  - [ ] Permission System
  - [ ] Bi-Lingual
- - [ ] Notifications
+ - [x] Notifications
  - [ ] History Log
- - [ ] Family Features
+ - [x] Family Features
  - [ ] Excel/CSV Export
- - [ ] Attest Management
+ - [x] Attest Management
  - [ ] Personal Settings
- - [ ] In-Table Editing
+ - [x] In-Table Editing
  - [x] Default Query
  - [ ] Consistency checks
+ - [ ] E-Mail Features
 
 ## Dev-Log
 
@@ -88,35 +88,47 @@
 - table sorting with header buttons
 - allow editing when double click
 - edit toolbar section
-
-## Roadmap
-
-### Feb 26
-
-- save in table editing
+- save all modified members after editing mode
+- label dirty fields when editing
+- help dialog editing info
 
 ### Feb 27
 
-- date type
-- attest system
+- remove null values from import
+- import endpoint
+- make date fields receive and produce correct types
+- emails to smtp
+- setup ste attest mail
+- attest templates
+- create mails from templates
+- query to get members to notify
+- go routine once a day for reminders
 
 ### Feb 28
 
-- history log (without user?!)
+- query result to Excel sheet
+- send Excel file in request
+
+## Roadmap
+
+### Feb 28
+
+- excel/csv export
 
 ### Mar 1
 
-- excel/csv export
 - modify table structure
+- login
+- user management
 
 ### Mar 2
 
-- user management
-- login
 - permissions
+- history log (without user?!)
 
 ## Future Ideas
 
+- fix query editor cannot load date fields correctly
 - query list
 - aggregation functions in queries
 - suggest common entries when editing member info (like the city name after typing some letters)
