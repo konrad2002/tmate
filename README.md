@@ -18,7 +18,7 @@
  - [x] Notifications
  - [ ] History Log
  - [x] Family Features
- - [ ] Excel/CSV Export
+ - [x] Excel Export
  - [x] Attest Management
  - [ ] Personal Settings
  - [x] In-Table Editing
@@ -108,12 +108,13 @@
 
 - query result to Excel sheet
 - send Excel file in request
+- client excel export button with download
 
 ## Roadmap
 
 ### Feb 28
 
-- excel/csv export
+- serial mails
 
 ### Mar 1
 
