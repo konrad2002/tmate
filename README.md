@@ -109,27 +109,32 @@
 - query result to Excel sheet
 - send Excel file in request
 - client excel export button with download
-
-## Roadmap
-
-### Feb 28
-
-- serial mails
+- email editor dialog
 
 ### Mar 1
 
+- email editor subject, sender, receivers
+- sender autocomplete
+- make multiple table rows selectable
+- send email endpoint
+- smtp config files
+- document parsing for each receiving member 
+
+## Roadmap
+
+### ToDo
+
 - modify table structure
 - login
+- jwt system
 - user management
-
-### Mar 2
-
 - permissions
-- history log (without user?!)
+- history log
+- query management
+- fix query editor cannot load date fields correctly
+- email template cannot parse dates correctly (see ChatGPT conv.)
 
 ## Future Ideas
 
-- fix query editor cannot load date fields correctly
-- query list
 - aggregation functions in queries
 - suggest common entries when editing member info (like the city name after typing some letters)
