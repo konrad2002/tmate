@@ -120,6 +120,19 @@
 - smtp config files
 - document parsing for each receiving member 
 
+### Mar 2
+
+- user model; dtos; controller and service
+- user creation
+- user login endpoint with jwt generation
+- simple user list dialog
+- permission concept
+- permission model
+
+### Mar 4
+
+- 
+
 ## Roadmap
 
 ### ToDo
@@ -133,6 +146,7 @@
 - query management
 - fix query editor cannot load date fields correctly
 - email template cannot parse dates correctly (see ChatGPT conv.)
+- email add buttons for all fields
 
 ## Future Ideas
 
