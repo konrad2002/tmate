@@ -2,7 +2,7 @@
 
 ## ToDos
 
- - [ ] Login
+ - [x] Login
  - [ ] User Management
  - [x] Load Table
  - [x] Different Queries
@@ -24,7 +24,7 @@
  - [x] In-Table Editing
  - [x] Default Query
  - [ ] Consistency checks
- - [ ] E-Mail Features
+ - [x] E-Mail Features
 
 ## Dev-Log
 
@@ -129,9 +129,12 @@
 - permission concept
 - permission model
 
-### Mar 4
+### Mar 5
 
-- 
+- setup production env
+- fix backend pipeline
+- import data to production
+- nginx setup for backend
 
 ## Roadmap
 
@@ -147,6 +150,9 @@
 - fix query editor cannot load date fields correctly
 - email template cannot parse dates correctly (see ChatGPT conv.)
 - email add buttons for all fields
+- fix export not working
+- activate emails
+- fix mail template date (+1 year)
 
 ## Future Ideas
 
