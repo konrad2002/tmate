@@ -136,21 +136,44 @@
 - import data to production
 - nginx setup for backend
 
+### Mar 15
+
+- query per person
+- set query owner
+- query management allow custom owner in backend
+- refresh query list when necessary
+- logged in as
+- fix login triggers directives again
+- query deletion confirmation prompt
+- change password
+- set temporary password
+- force password change for temp passwords
+- login counter
+- last login timestamp
+
+### Mar 16
+
+- remove unused buttons
+- query editor for admins
+- query management permission shows more buttons
+
+### Mar 17
+
+- fix export triggering on every query run
+- fix excel export
+- improve table style
+
 ## Roadmap
 
 ### ToDo
 
 - modify table structure
-- login
-- jwt system
-- user management
+- user creation
 - permissions
 - history log
-- query management
 - fix query editor cannot load date fields correctly
 - email template cannot parse dates correctly (see ChatGPT conv.)
 - email add buttons for all fields
-- fix export not working
 - activate emails
 - fix mail template date (+1 year)
 
@@ -158,3 +181,12 @@
 
 - aggregation functions in queries
 - suggest common entries when editing member info (like the city name after typing some letters)
+- consistency checks:
+  - age too low
+  - begin training before joining
+  - begin training before being born
+  - active but no dsv id
+  - dsv id active but not active
+  - no email address
+  - no phone number
+  - no address
