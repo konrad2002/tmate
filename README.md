@@ -7,7 +7,7 @@
  - [x] Load Table
  - [x] Different Queries
  - [x] Query Builder
- - [ ] Query List
+ - [x] Query List
  - [x] Sort Table
  - [ ] Modify Table Structure
  - [x] Add/Modify/Delete Member
@@ -163,6 +163,18 @@
 - fix excel export
 - improve table style
 
+### Mar 23
+
+- activate attest routine
+- fix attest routine templates missing
+- fix Hetzner blocking smtp port
+- log history events without user id
+- hide checkbox in table if dirty
+
+### Mar 26
+
+- add $exists to query builder
+
 ## Roadmap
 
 ### ToDo
@@ -170,12 +182,14 @@
 - modify table structure
 - user creation
 - permissions
-- history log
+- history log with user id
 - fix query editor cannot load date fields correctly
 - email template cannot parse dates correctly (see ChatGPT conv.)
 - email add buttons for all fields
-- activate emails
-- fix mail template date (+1 year)
+- query editor condition date today
+- query editor condition date today minus one year
+- fix excel export first column missing
+- no results screen
 
 ## Future Ideas
 
