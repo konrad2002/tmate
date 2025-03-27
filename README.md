@@ -25,6 +25,7 @@
  - [x] Default Query
  - [ ] Consistency checks
  - [x] E-Mail Features
+ - [ ] Attest highlighting
 
 ## Dev-Log
 
@@ -170,6 +171,7 @@
 - fix Hetzner blocking smtp port
 - log history events without user id
 - hide checkbox in table if dirty
+- send emails also to internal address
 
 ### Mar 26
 
@@ -190,12 +192,15 @@
 - query editor condition date today minus one year
 - fix excel export first column missing
 - no results screen
+- highlight outdated attest; reminded attests and valid ones
 
 ## Future Ideas
 
 - aggregation functions in queries
 - suggest common entries when editing member info (like the city name after typing some letters)
-- consistency checks:
+- edit whole column
+- search inside the table
+- consistency checks (create query that should be empty):
   - age too low
   - begin training before joining
   - begin training before being born
